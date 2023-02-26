@@ -13,7 +13,7 @@ public class Main {
         int balans = 100;
         int add = 1350;
         int bonus = add / 100;
-        if (add > 100) {
+        if (add > 1000) {
             balans = balans + add + bonus;
         } else {
             balans = balans + add;
